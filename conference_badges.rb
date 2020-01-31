@@ -13,6 +13,7 @@ def batch_badge_creator(attendees)
 end
 
 def conference_badges(attendees)
-  attendees.each_with_index.map do |attendee index|
+  attendees.each_with_index.map do |attendee, index|
+    
 end
   
