@@ -15,5 +15,6 @@ end
 def conference_badges(attendees)
   attendees.each_with_index(1).map do |attendee, index|
     "Hello #{attendee}! You'll be assigned to room #{index}!"
+  end
 end
   
